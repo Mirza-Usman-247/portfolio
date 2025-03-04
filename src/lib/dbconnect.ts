@@ -1,6 +1,10 @@
 import mongoose from "mongoose";
 
-const MONGO_URL = "mongodb://localhost:27017/portfoliodb"; 
+const MONGO_URL = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID
+
+if (!MONGO_URL) {
+  throw new Error("Please define the MONGODB_URI environment variable.");
+}
 
 export const dbconnect = async () => {
   try {

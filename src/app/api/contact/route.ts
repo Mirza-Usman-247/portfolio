@@ -1,5 +1,5 @@
-import { contactFormSchema } from "@/lib/contactSchema";
-import { dbconnect } from "@/lib/dbconnect";
+import { contactFormSchema } from "../../../lib/contactSchema";
+import { dbconnect } from "../../../lib/dbconnect";
 import contact from "@/model/contact";
 import { NextResponse } from "next/server";
 

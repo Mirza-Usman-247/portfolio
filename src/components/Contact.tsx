@@ -15,7 +15,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Toaster } from "./ui/sonner";
-import { contactFormSchema } from "@/lib/contactSchema";
+import { contactFormSchema } from "../lib/contactSchema";
 import { toast } from "sonner";
 
 const Contact = () => {
