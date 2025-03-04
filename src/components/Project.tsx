@@ -24,6 +24,13 @@ export default function Projects() {
         "The Simple Calculator project, built with Next.js, is a web application that performs basic arithmetic operations like addition, subtraction, multiplication, and division. It features a clean, responsive design with an intuitive user interface for seamless interaction.",
       technologies: ["Typescript", "Next js"],
     },
+    {
+      title: "Weather widget App",
+      href: "https://github.com/Mirza-Usman-247/04_weather_widget_app",
+      description:
+        "A simple and intuitive weather app built with React and WeatherAPI. It provides real-time weather updates, including temperature, location, and weather conditions, for any city you search. Designed with a clean UI using Tailwind CSS, it also features error handling and a loading state for a seamless user experience.",
+      technologies: ["Typescript", "Next js"],
+    },
   ];
 
   return (
@@ -43,7 +50,7 @@ export default function Projects() {
             </div>
 
             <p
-              className="text-gray-400 text-sm mb-6 md:line-clamp-4"
+              className="text-[#5D5D5D] text-sm mb-6 md:line-clamp-4"
               style={{ fontFamily: "Inder, sans-serif" }}
             >
               {project.description}
