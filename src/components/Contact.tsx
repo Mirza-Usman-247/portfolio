@@ -40,7 +40,6 @@ const Contact = () => {
         },
         body: JSON.stringify(values),
       });
-      const data = await res.json();
       if (!res.ok) {
         toast.error("Failed to send message. Please try again.");
       } else {
