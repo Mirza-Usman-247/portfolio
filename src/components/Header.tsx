@@ -57,7 +57,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="">
+        <div className="hidden md:flex">
           <Image
             src={logo}
             alt="logo"
